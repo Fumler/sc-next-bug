@@ -1,0 +1,24 @@
+{
+  "name": "sc-next-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@aller/shiny": "github:dbmedialab/shiny#2f9b00f",
+    "@zeit/next-bundle-analyzer": "^0.1.1",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "next": "^5.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "reas": "^0.9.0",
+    "styled-components": "^3.2.5"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
