@@ -1,6 +1,5 @@
 import React from "react";
 import styled, { ThemeProvider} from "styled-components";
-import { Box } from 'reas'
 
 const OuterWrapper = styled.div`
   padding: 4em;
@@ -40,7 +39,6 @@ const App = () => (
       <InnerWrapper>
         <Title>Hello World, this is my first styled component!</Title>
       </InnerWrapper>
-      <Box backgroundColor="palevioletred" color="white">Box</Box>
     </div>
     </div>
   </ThemeProvider>
